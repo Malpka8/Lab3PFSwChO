@@ -10,6 +10,6 @@ $ docker run -d --rm -p 8080:8080 --name lab3 lab3.v1
 
 ## Add Image on dockerhub
 ```
-$ docker tag lab3.v3 bszabat5/lab3.v1:version1
+$ docker tag lab3.v1 bszabat5/lab3.v1:version1
 $ docker push bszabat5/lab3.v1:version1
 ```
